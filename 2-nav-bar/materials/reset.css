@@ -46,3 +46,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+nav ul li a {
+     display: block;
+     text-decoration: none;
+     font-family: roboto;
+     color: #fff;6. 
+}
+
+nav ul {
+     list-style: none;
+     text-align: center;4.  
+}
+
+nav ul li {
+     font-size: 30px;
+     border-bottom: 1px solid #444;
+     padding: 10px 5px;
+     background-color: #1D2026;
+}
+
+nav ul li:hover {
+     background-color: #555;
+     transition: all .3s ease;
+}
+
+nav ul li a {
+     display: block;
+     ...
+}
+
+@media screen and (min-width: 665px) {
+   nav{
+   	font-size: 0px;
+   }
+   nav ul li {
+        display: inline-block;
+        width: 120px;
+        font-size: 20px;
+        border-bottom: none;
+   }
+}
+
+body{color: #1D2026;}
