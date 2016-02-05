@@ -4,11 +4,41 @@
 		<meta charset="utf-8" />
 		<title>Box Model</title>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+		<style type="text/css"> 
+
+  /* Normal CSS goes here... */
+
+  @media screen and (max-width: 400px){ 
+    p {
+      font-size: 40px;
+      border: solid red 1px;
+
+    } 
+    .box {
+      text-align: left; background-color:#eee; border-color: white;
+    }
+    /* min-width for desktop */
+  } 
+
+	@media screen and(min-width: 1000px){
+		.box{
+		border: 10px solid white;
+		color:white;
+		}
+	}
+
+
+</style>
+
+
 		<style type="text/css">
 		body{
 			background-image: url(img/code.jpg);
 			background-size: cover;
 		}
+
+
 
 			#container
 			{

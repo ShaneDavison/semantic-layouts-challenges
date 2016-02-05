@@ -67,7 +67,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-     background-color: #555;
+     background-color: white;
      transition: all .3s ease;
 }
 
@@ -84,7 +84,7 @@ nav ul li a {
         display: inline-block;
         width: 120px;
         font-size: 20px;
-        border-bottom: none;
+      
    }
 }
 
